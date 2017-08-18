@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+#myBtn{
+  color: red;
+}
+#title{
+    text-align: right;
+}
+h6{
+  text-align: right;
+}
+#demo{
+   text-align: center;
+}
+.searchBar {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contentContainer{
+    border: 1px dotted #ff2400;
+     position: absolute;
+    width: 30%;
+     top: 45%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#cityName {
+  text-align: center;
+}
+.weatherVar{
+  text-align: center;
+}
